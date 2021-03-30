@@ -8,8 +8,7 @@ namespace BuildPipeEditDockerProject.Models
     public class MoviesRepository:IRepository<Movie>
     {
         List<Movie> movies;
-        private static readonly object forLock = new object();
-        private static MoviesRepository repository = null;
+
         public MoviesRepository()
         {
             movies = new List<Movie>();

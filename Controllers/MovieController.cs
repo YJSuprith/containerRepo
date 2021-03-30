@@ -53,8 +53,7 @@ namespace BuildPipeEditDockerProject.Controllers
             }
             catch (Exception)
             {
-
-                throw;
+                return BadRequest("error");
             }
         }
 

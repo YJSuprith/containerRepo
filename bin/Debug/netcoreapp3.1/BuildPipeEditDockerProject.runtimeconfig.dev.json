@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\SUPRITH\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\SUPRITH\\.nuget\\packages"
+    ]
+  }
+}
